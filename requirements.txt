@@ -1,2 +1,6 @@
-# 零第三方依赖：数据生成、对账引擎、评测全部用标准库实现
-# 需要 Python 3.10+（用了 match-free 语法，仅需 f-string 与 Decimal）
+# 零第三方依赖：数据生成、对账引擎、归因服务、评测全部用标准库实现
+# （LLM 调用走 urllib，不引 requests / httpx / openai SDK）
+# 需要 Python 3.10+（用到 X | Y 类型注解与海象运算符）
+#
+# 跑归因层只需一份 .env（cp .env.example .env），任一免费 Provider 的 Key 即可；
+# 只跑数据层与规则基线则完全不需要 Key。
