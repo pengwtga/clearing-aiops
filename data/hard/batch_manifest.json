@@ -1,0 +1,20 @@
+{
+  "B20261013": {
+    "rerun_count": 2,
+    "corp_action": [],
+    "file_arrive_time": "19:35",
+    "missed_shards": [
+      "A88123001"
+    ]
+  },
+  "B20261014": {
+    "rerun_count": 2,
+    "corp_action": [],
+    "file_arrive_time": "19:35"
+  },
+  "B20261015": {
+    "rerun_count": 1,
+    "corp_action": [],
+    "file_arrive_time": "19:35"
+  }
+}

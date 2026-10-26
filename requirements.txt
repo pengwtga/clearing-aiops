@@ -1,0 +1,2 @@
+# 零第三方依赖：数据生成、对账引擎、评测全部用标准库实现
+# 需要 Python 3.10+（用了 match-free 语法，仅需 f-string 与 Decimal）
